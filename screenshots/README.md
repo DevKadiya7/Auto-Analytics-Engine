@@ -1,0 +1,1 @@
+Run `streamlit run app.py`, open the local URL, and capture the dashboard with the operating system screenshot tool. Recommended captures: overview/filters, automated insights, and correlation/visualization sections.

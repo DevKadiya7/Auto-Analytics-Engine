@@ -1,0 +1,13 @@
+insight_id,type,indicator,entity,period,value,prev_value,change_pct,severity,explanation
+INS-0001,trend,anc_coverage,Ahmedabad,2026-08,69.0,85.0,-18.823529411764707,Medium,"anc_coverage in Ahmedabad decreased from 85.00 to 69.00 (-18.8%), meeting the configured 10.0% trend threshold."
+INS-0002,trend,high_risk_cases,Ahmedabad,2026-08,13.0,10.0,30.0,High,"high_risk_cases in Ahmedabad increased from 10.00 to 13.00 (30.0%), meeting the configured 10.0% trend threshold."
+INS-0003,trend,high_risk_cases,Bhavnagar,2026-08,15.0,17.0,-11.76470588235294,Medium,"high_risk_cases in Bhavnagar decreased from 17.00 to 15.00 (-11.8%), meeting the configured 10.0% trend threshold."
+INS-0004,trend,anc_coverage,Mehsana,2026-08,42.0,84.0,-50.0,High,"anc_coverage in Mehsana decreased from 84.00 to 42.00 (-50.0%), meeting the configured 10.0% trend threshold."
+INS-0005,trend,high_risk_cases,Mehsana,2026-08,28.0,11.0,154.54545454545453,High,"high_risk_cases in Mehsana increased from 11.00 to 28.00 (154.5%), meeting the configured 10.0% trend threshold."
+INS-0006,trend,high_risk_cases,Vadodara,2026-08,6.0,7.0,-14.285714285714285,Medium,"high_risk_cases in Vadodara decreased from 7.00 to 6.00 (-14.3%), meeting the configured 10.0% trend threshold."
+INS-0007,outlier,anc_coverage,Ahmedabad,2026-08,69.0,,,Medium,"anc_coverage for Ahmedabad was 69.00 in 2026-08, below 69.88 the IQR detection bound."
+INS-0008,outlier,anc_coverage,Mehsana,2026-08,42.0,,,High,"anc_coverage for Mehsana was 42.00 in 2026-08, below 69.88 the IQR detection bound."
+INS-0009,outlier,immunization,Vadodara,2026-08,97.0,,,Medium,"immunization for Vadodara was 97.00 in 2026-08, above 96.00 the IQR detection bound."
+INS-0010,outlier,high_risk_cases,Mehsana,2026-08,28.0,,,Medium,"high_risk_cases for Mehsana was 28.00 in 2026-08, above 21.38 the IQR detection bound."
+INS-0011,correlation,anc_coverage:high_risk_cases,,,-0.9334945495677245,,,High,anc_coverage and high_risk_cases have a negative Pearson correlation of -0.93 across 12 observations.
+INS-0012,correlation,institutional_delivery:immunization,,,0.97860795068418,,,High,institutional_delivery and immunization have a positive Pearson correlation of 0.98 across 12 observations.
